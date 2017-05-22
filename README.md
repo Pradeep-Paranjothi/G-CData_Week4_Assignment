@@ -22,7 +22,7 @@ The codebook has the specific description of the tidy data file contents - the d
 -----------
 Output File
 -----------
-The output file (independent tidy data set) is avaiable in the file "tidy_final.txt".
+The output file (independent tidy data set) is avaiable in the file "tidy_final_v1.txt".
 Criteria: The output file is considered tidy based on the following criteria:
 
 •	Does it have headings so I know which columns are which? YES
