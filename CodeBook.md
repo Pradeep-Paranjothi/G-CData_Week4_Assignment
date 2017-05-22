@@ -5,20 +5,19 @@ subjectID - - An identifier of the subject who carried out the experiment
 activityId - An identifier of the type of activity performed when the observations were recorded
 activityType - Type of the activity being performed, please see below for description
 
-
 ##Metrics Used:
-"tBodyAcc-mean()-X"
-"tBodyAcc-mean()-Y"
-"tBodyAcc-mean()-Z"
-"tBodyAcc-std()-X"
-"tBodyAcc-std()-Y"
-"tBodyAcc-std()-Z"
-"tGravityAcc-mean()-X"
-"tGravityAcc-mean()-Y"
-"tGravityAcc-mean()-Z"
-"tGravityAcc-std()-X"
-"tGravityAcc-std()-Y"
-"tGravityAcc-std()-Z"
+"tBodyAcc-mean()-X" : Mean of accelerometer axial raw signal captured along the x axis ,separated into body acc signal(Hz)
+"tBodyAcc-mean()-Y": Mean of accelerometer axial raw signal captured along the y axis ,separated into body acc signal(Hz)
+"tBodyAcc-mean()-Z" : Mean of accelerometer axial raw signal captured along the z axis ,separated into body acc signal(Hz)
+"tBodyAcc-std()-X": Std dev(SD) of accelerometer axial raw signal captured along the x axis ,separated into body acc signal(Hz)
+"tBodyAcc-std()-Y": Std dev(SD) of accelerometer axial raw signal captured along the y axis ,separated into body acc signal(Hz)
+"tBodyAcc-std()-Z": Std dev(SD) of accelerometer axial raw signal captured along the z axis ,separated into body acc signal(Hz)
+"tGravityAcc-mean()-X":Mean of accelerometer axial raw signal captured along the x axis ,separated into gravity acc signal(Hz)
+"tGravityAcc-mean()-Y":Mean of accelerometer axial raw signal captured along the y axis ,separated into gravity acc signal(Hz)
+"tGravityAcc-mean()-Z":Mean of accelerometer axial raw signal captured along the z axis ,separated into gravity acc signal(Hz)
+"tGravityAcc-std()-X":Std dev(SD) of accelerometer axial raw signal captured along the x axis ,separated into gravity acc signal(Hz)
+"tGravityAcc-std()-Y":Std dev(SD) of accelerometer axial raw signal captured along the y axis ,separated into gravity acc signal(Hz)
+"tGravityAcc-std()-Z":Std dev(SD) of accelerometer axial raw signal captured along the z axis ,separated into gravity acc signal(Hz)
 "tBodyAccJerk-mean()-X"
 "tBodyAccJerk-mean()-Y"
 "tBodyAccJerk-mean()-Z"
