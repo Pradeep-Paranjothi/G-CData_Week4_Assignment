@@ -18,7 +18,7 @@ activityType - Type of the activity being performed, please see below for descri
 "tGravityAcc-std()-X":Std dev(SD) of accelerometer axial raw signal captured along the x axis ,separated into gravity acc signal(Hz)
 "tGravityAcc-std()-Y":Std dev(SD) of accelerometer axial raw signal captured along the y axis ,separated into gravity acc signal(Hz)
 "tGravityAcc-std()-Z":Std dev(SD) of accelerometer axial raw signal captured along the z axis ,separated into gravity acc signal(Hz)
-"tBodyAccJerk-mean()-X"
+"tBodyAccJerk-mean()-X":
 "tBodyAccJerk-mean()-Y"
 "tBodyAccJerk-mean()-Z"
 "tBodyAccJerk-std()-X"
