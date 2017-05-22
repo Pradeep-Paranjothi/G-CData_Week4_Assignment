@@ -94,14 +94,13 @@ activityType - Type of the activity being performed, please see below for descri
 5 STANDING : The subject who carried out the experiment was standing
 6 LAYING : : The subject who carried out the experiment was laying down
 
-
 ##Transformations done:
 metric name with suffix "t" - replaced with time
 metric name with suffix "f" - replaced with frequency
 metric name with suffix "Acc" - replaced with Accelerometer
 metric name with suffix "Mag" - replaced with Magnitude
 metric name with suffix "Mag" - replaced with Magnitude
-
+metric name with suffix "BodyBody" - replaced with Body. Repetition of the word "Body" has been removed.
 
 names(merge_all)<-gsub("^t", "time", names(merge_all))
 names(merge_all)<-gsub("^f", "frequency", names(merge_all))
