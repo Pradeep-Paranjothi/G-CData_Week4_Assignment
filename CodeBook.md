@@ -3,10 +3,10 @@
 ##Key Fields/Data Identifiers:
 subjectID - - An identifier of the subject who carried out the experiment
 activityId - An identifier of the type of activity performed when the observations were recorded
+activityType - Type of the activity being performed, please see below for description
+
 
 ##Metrics Used:
-"subjectId"
-"activityId"
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
@@ -86,9 +86,9 @@ activityId - An identifier of the type of activity performed when the observatio
 "fBodyBodyGyroJerkMag-mean()"
 "fBodyBodyGyroJerkMag-std()"
 "fBodyBodyGyroJerkMag-meanFreq()"
-"activityType"
 
-##Activity Labels:
+
+##activityType Description :
 1 WALKING : The subject who carried out the experiment was walking
 2 WALKING_UPSTAIRS : The subject who carried out the experiment was walking upstairs
 3 WALKING_DOWNSTAIRS : : The subject who carried out the experiment was walking downstairs
