@@ -99,6 +99,6 @@ names(merge_all)<-gsub("BodyBody", "Body", names(merge_all))
 tidy_final <- aggregate(. ~subjectId + activityId, merge_all, mean)
 tidy_final <- final[order(final$subjectId, final$activityId),]
 
-write.table(final, "tidy_final.txt", row.name=FALSE)
+write.table(final, "tidy_final_v1.txt", row.name=FALSE)
 
 
