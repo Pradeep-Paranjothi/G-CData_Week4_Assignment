@@ -94,27 +94,18 @@ activityType - Type of the activity being performed, please see below for descri
 5 STANDING : The subject who carried out the experiment was standing
 6 LAYING : : The subject who carried out the experiment was laying down
 
-##Transformations done:
-metric name with suffix "t" - replaced with time
-metric name with suffix "f" - replaced with frequency
-metric name with suffix "Acc" - replaced with Accelerometer
-metric name with suffix "Mag" - replaced with Magnitude
-metric name with suffix "Mag" - replaced with Magnitude
-metric name with suffix "BodyBody" - replaced with Body. Repetition of the word "Body" has been removed.
 
-names(merge_all)<-gsub("^t", "time", names(merge_all))
-names(merge_all)<-gsub("^f", "frequency", names(merge_all))
-names(merge_all)<-gsub("Acc", "Accelerometer", names(merge_all))
-names(merge_all)<-gsub("Gyro", "Gyroscope", names(merge_all))
-names(merge_all)<-gsub("Mag", "Magnitude", names(merge_all))
-
-
-
-
-
-
-
-
+#Activities done on the dataset:
+1. Merge the training and the test sets to create one data set
+2. Extracted only the measurements on the mean and standard deviation for each measurement.
+3. Used Descriptive names to label the dataset, please see below:
+      metric name with suffix "t" - replaced with time
+      metric name with suffix "f" - replaced with frequency
+      metric name with suffix "Acc" - replaced with Accelerometer
+      metric name with suffix "Mag" - replaced with Magnitude
+      metric name with suffix "Mag" - replaced with Magnitude
+      metric name with suffix "BodyBody" - replaced with Body. Repetition of the word "Body" has been removed.
+4. Created a second, independent tidy data set with the average of each variable for each activity and each subject
 
 
 
