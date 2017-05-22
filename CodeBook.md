@@ -86,13 +86,30 @@ activityType - Type of the activity being performed, please see below for descri
 "fBodyBodyGyroJerkMag-std()": SD of the Magnitude of the gyro jerk accelertion FFT Jerk signal
 "fBodyBodyGyroJerkMag-meanFreq()":Mean Frequency of the magnitude of FFT gyro Jerk signal calculated using the Euclidean norm
 
-##activityType Description :
+##activityID to activityType Description :
 1 WALKING : The subject who carried out the experiment was walking
 2 WALKING_UPSTAIRS : The subject who carried out the experiment was walking upstairs
 3 WALKING_DOWNSTAIRS : : The subject who carried out the experiment was walking downstairs
 4 SITTING : The subject who carried out the experiment was sitting
 5 STANDING : The subject who carried out the experiment was standing
 6 LAYING : : The subject who carried out the experiment was laying down
+
+
+##Transformations done:
+metric name with suffix "t" - replaced with time
+metric name with suffix "f" - replaced with frequency
+metric name with suffix "Acc" - replaced with Accelerometer
+metric name with suffix "Mag" - replaced with Magnitude
+metric name with suffix "Mag" - replaced with Magnitude
+
+
+names(merge_all)<-gsub("^t", "time", names(merge_all))
+names(merge_all)<-gsub("^f", "frequency", names(merge_all))
+names(merge_all)<-gsub("Acc", "Accelerometer", names(merge_all))
+names(merge_all)<-gsub("Gyro", "Gyroscope", names(merge_all))
+names(merge_all)<-gsub("Mag", "Magnitude", names(merge_all))
+
+
 
 
 
